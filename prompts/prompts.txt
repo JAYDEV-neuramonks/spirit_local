@@ -1,0 +1,60 @@
+- prompt_id: 1
+  prompt_name: "Profile Tagging"
+  prompt_description: "Analyze the profile and identify key elements."
+  prompt_input: "Description of a professional profile."
+  prompt_content: |
+    Task: As a Data Analyst, analyze the profile and identify key elements.
+    Identify Key Elements: Focus on skills, experiences, interests, and unique personal attributes.
+    Create Tags: Assign up to 6 most relevant tags, each being one or two words. If the description is brief, infer at least 3 tags.
+    Tags Specification: Tags should capture aspects like professional expertise, hobbies, and passions. tags are one or two words maximum
+    Output Requirement: List the tags, separated by commas.
+    example1:
+    un sens aigu de la performance au travail en temps limité pour un service uniquement utile et sans blabla... pour vous comme pour moi ! dingo de Kite de dada plongée surf et voyages …. C est l humain l aventure ! Et les vraies rencontres que je préfère ! 
+    output:
+    leadership, productivity, surfer, diver, discussion
+    example2:
+    Co-fondatrice de The Artist Academy 
+    output:
+    leadership, arts
+
+- prompt_id: 2
+  prompt_name: "Profile Tag Optimization"
+  prompt_description: "Refine and standardize the tags."
+  prompt_input: "List of tags generated from individual professional profiles."
+  prompt_content: |
+    Task: As a Data Analyst, refine and standardize the tags.
+        Review Tags: Examine the list of tags for each profile. Look for similarities, redundancies, and overly specific tags that can be generalized.
+        Merge and Refine Tags: Combine similar tags into broader categories. Refine tags to ensure they are concise and representative of key professional attributes.
+        Standardize Tags: Create a standardized set of tags that can be consistently applied across all profiles.
+        Consistency Check: Ensure that the standardized tags are still representative of the key elements of each profile.
+        Output Requirement: Provide a refined list of tags
+    Example1:
+    Input Tags: leadership, productivity, surfer, diver, discussion
+    Output:
+    Leadership, Efficiency, Water Sports, Communication
+    Example2:
+    Input Tags: leadership, arts
+    Output:
+    Leadership, Creativity
+
+- prompt_id: 3
+  prompt_name: "Profile Tag Reassignment"
+  prompt_description: "Reassign tags to each profile using the standardized list."
+  prompt_input: "Individual professional profiles along with their initial tags."
+  prompt_content: |
+    Task: As a Data Analyst, reassign tags to each profile using the standardized list.
+        Revisit Profiles: Go through each profile and its initial set of tags.
+        Apply Standardized Tags: Match the profile's characteristics with the standardized tags. Replace initial tags with corresponding standardized tags where applicable.
+        Ensure Uniformity: Make sure that the tags are uniformly applied across all profiles, ensuring consistency in how each tag is used.
+        Accuracy Check: Verify that the reassigned tags accurately represent the key attributes of each profile.
+        Output Requirement: List the updated tags for each profile, ensuring they align with the standardized set. Output is only the list of tags, separated with a comma
+    Example1:
+    Original Tags: Project Management, Teamwork, Agile
+    Standardized Tags: Leadership, Efficiency, Agile
+    Output:
+    Updated Tags: Leadership, Agile
+    Example2:
+    Original Tags: Graphic Design, Digital Art, UX
+    Standardized Tags: Creativity, Digital, UX
+    Output:
+    Explanation: 'Graphic Design' and 'Digital Art' merged into 'Creativity'; maintained 'Digital' and 'UX' from the standardized list.

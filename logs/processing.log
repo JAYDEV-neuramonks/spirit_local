@@ -1,0 +1,22 @@
+2024-06-18 15:27:06 INFO Processing a json file.
+2024-06-18 15:27:06 INFO Estimated token count for PM20200655 SPIRIT Mairie SAVIGNY Acpte V2.pdf: 162.8
+2024-06-18 15:27:06 INFO 162.8
+2024-06-18 15:27:06 ERROR API call failed: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2024-06-18 15:27:16 ERROR API call failed: 'str' object has no attribute 'status_code'
+2024-06-18 15:29:34 INFO Processing a json file.
+2024-06-18 15:29:34 INFO Estimated token count for PM20200655 SPIRIT Mairie SAVIGNY Acpte V2.pdf: 162.8
+2024-06-18 15:29:34 INFO 162.8
+2024-06-18 15:29:34 ERROR API call failed: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2024-06-18 15:29:40 INFO Processing a json file.
+2024-06-18 15:29:40 INFO Estimated token count for PM20200655 SPIRIT Mairie SAVIGNY Acpte V2.pdf: 162.8
+2024-06-18 15:29:40 INFO 162.8
+2024-06-18 15:29:40 ERROR API call failed: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2024-06-18 15:29:44 INFO Processing a json file.
+2024-06-18 15:29:44 INFO Estimated token count for PM20200655 SPIRIT Mairie SAVIGNY Acpte V2.pdf: 162.8
+2024-06-18 15:29:44 INFO 162.8
+2024-06-18 15:29:44 ERROR API call failed: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2024-06-18 15:34:31 INFO Processing a json file.
+2024-06-18 15:34:31 INFO Estimated token count for PM20200655 SPIRIT Mairie SAVIGNY Acpte V2.pdf: 162.8
+2024-06-18 15:34:31 INFO 162.8
+2024-06-18 15:34:31 ERROR API call failed: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2024-06-18 15:34:35 ERROR API call failed: 'str' object has no attribute 'status_code'
